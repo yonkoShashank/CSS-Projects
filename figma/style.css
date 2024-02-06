@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.wrapper
+{
+    background-color: #d1d1d1;
+    display: flex;
+    padding-left: 9%;
+    padding-top: 2%;
+}
+.divclass
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #777C85;
+    flex-grow: 0.16;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+#divid
+{
+    align-self: center;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #4545FF;
+    color: #EDEDED;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+#divid:hover
+{
+    box-shadow: 2px 2px 8px #4545FF,-2px -2px 5px #4545FF;
+}
+#id1
+{
+    align-self: center;
+}
+
+.wrapper1
+{
+    padding-top: 4%;
+    background-color: #d1d1d1;
+    display: flex;
+    padding-left: 9%;
+    padding-right: 10%;
+    gap: 15px;
+    padding-bottom: 10%;
+}
+.divclass1
+{
+    width: 100vw;
+}
+#idh2
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #777C85;
+    text-decoration: underline #777C85;
+}
+#idpara
+{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#imgup
+{
+    height: 80%;
+    width: 40%;
+    right: 10%;
+    padding-top: 25px;
+}
+.wrapper2
+{
+    background-color: #d1d1d1;
+    display: flex;
+    padding-left: 9%;
+    padding-right: 10%;
+    gap: 20px;
+    padding-bottom: 10%;
+}
+.divclass2
+{
+    width: 100vw;
+    height: 100%;
+}
+#impdown
+{
+    height: 90%;
+    width: 40%;
+}
+.wrapper3
+{
+    display: flex;
+    background-color: #EDEDED;
+}
+.divclass3
+{
+    flex-grow: 0.15;
+    margin: 40px;
+    background-color: #EDEDED;
+}
+.classh3
+{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4545FF;
+}
+.divclass3 p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #777C85;
+}
+.div1 
+{
+    align-self: flex-end;
+}
+.div2 
+{
+    align-self: flex-start;
+}
+.div3 
+{
+    align-self: flex-start;
+}
+.divclass4
+{
+    align-self: center;
+}
+#imgsmall
+{
+    height: 21px;
+    width: 21px;
+    background-color: #4545FF;
+    padding: 15px;
+    border-radius: 25px;
+}
