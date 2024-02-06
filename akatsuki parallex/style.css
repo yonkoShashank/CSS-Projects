@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#outer
+{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 5px;
+    z-index: -1;
+}
+.inner 
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+#akatsuki,#madara
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+#akatsuki
+{
+    
+    transform: translateZ(-30px) scale(5.5);
+}
+#madara
+{
+    transform: translateZ(-15px) scale(3);
+    left: 30%;
+}
+#id1
+{
+    color: #1f1111;
+    background-color: #EDEDED;
+    height: 80px;
+    border-radius: 6px 6px;
+    font-size:4rem;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    text-shadow: 5px 5px 3px rgba(0,0,0, 0.3);
+}
+
+.backg
+{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section
+{
+    color: #EDEDED;
+    background-color: rgb(50, 50, 50);
+}
+.paraclass
+{
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+#id2
+{
+    font-size: 3rem;
+    padding:0 10rem;
+    padding-top: 6rem;
+    margin-top: 5rem;
+}
+.member
+{
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 7px;
+    color: #EDEDED;
+    background-color: #000000;
+    text-align: center;
+    display: inline;
+    left: 44%;
+    top: 50%;
+}
+
+.Nagato
+{
+    background-image: url(nagato.png);
+}
+.Konan
+{
+    background-image: url(konan.jpg);
+}
+.Zetsu
+{
+    background-image: url(zetsu.jpg);
+}
+.Orochimaru
+{
+    background-image: url(orochimaru.jpg);
+}
+.Sasori
+{
+    background-image: url(sasori.jpg);
+    background-position: top;
+}
+.Juzo
+{
+    background-image: url(jozo.png);
+    background-position: top;
+}
+.Itachi
+{
+    background-image: url(Itachi.png);
+}
+.Kisame
+{
+    background-image: url(kisame.jpg);
+}
+.Deidara
+{
+    background-image: url(deidara.jpg);
+}
+.Kakuzu
+{
+    background-image:url(kakuzu.jpg);
+}
+.Hidan
+{
+    background-image: url(hidan.jpg);
+}
+.Tobi
+{
+    background-image: url(obito.jpg);
+}
+.end
+{
+    background-image: url(end.png);
+}
