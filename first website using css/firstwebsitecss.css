@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #121212;
+    color: #EDEDED;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+@font-face 
+{
+    font-family: myfont;
+    src: url(bakery.ttf);
+}
+#h1
+{
+    font-family: myfont;
+    text-align: center;
+    font-size: 4rem;
+}
+.para
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(217, 255, 130);
+}
+.a 
+{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9e9600;
+}
+img
+{
+    box-shadow: 5px 5px 3px #9e9696;
+    margin: 20px;
+}
+figcaption
+{
+    font-weight: 600;
+    color: #667799;
+}
+#new1,#new2,#new3
+{
+    color: aqua;
+}
+ul
+{
+    color: aquamarine;
+}
+blockquote
+{
+    color: chartreuse;
+}
+footer
+{
+    color:cyan;
+}
+#newid
+{
+    color: burlywood;
+}
+.li
+{
+    color:darkgray;
+}
+li,blockquote,#ul,#newid
+{
+    text-align: left;
+}
