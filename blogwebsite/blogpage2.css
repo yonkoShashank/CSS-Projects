@@ -1,0 +1,113 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: #E2DFD2;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.box
+{
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+    grid-template-rows: 8rem 12.5rem 20rem 8rem 25rem;
+    width: 90vw;
+    margin: 0 auto;
+    gap: 30px;
+}
+.inner
+{
+    padding: 1.5rem;
+}
+.inner1
+{
+    padding:3% 0;
+    grid-area: 1/1/2/3;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.inner1 button
+{
+    border: none;
+    background-color: #E2DFD2;
+    color: black;
+}
+.inner1 p
+{
+    color: #696969;
+}
+.inner2
+{
+    grid-area: 2/1/6/2;
+    background-color: orange;
+    margin-bottom: 1rem;
+}
+.inner2 p
+{
+    font-size: 1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+#h1
+{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+#h2
+{
+    padding-bottom: 1.4rem;
+}
+.inner2 ul
+{
+    padding-left: 2rem;
+}
+.inner3
+{
+    grid-area: 2/2/3/3;
+    background-color: #888888;
+    font-size: 1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.inner3 h3
+{
+    padding-bottom: 1rem;
+}
+.inner4
+{
+    grid-area: 3/2/4/3;
+    display: flex;
+    flex-direction: column;
+    background-color: #696969;
+    word-spacing: 1px;
+}
+.inner h3
+{
+    padding-bottom: 1rem;
+}
+.inner a
+{
+    color: black;
+    word-spacing: 1px;
+}
+.inner5
+{
+    grid-area: 4/2/5/3;
+    background-color: #909090;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 1px;
+}
+.inner5 a
+{
+    letter-spacing: 1px;
+}
